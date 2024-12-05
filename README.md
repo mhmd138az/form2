@@ -93,12 +93,12 @@
             event.preventDefault();
             const formData = new FormData(this);
             const name = formData.get('name');
-            const email = formData.get('email');
+            const email = formData.get('محصول');
             const phone = formData.get('phone');
-            const order = formData.get('order');
+            const order = formData.get('تعداد');
             // شماره واتساپ خود را در اینجا وارد کنید
             const whatsappNumber = '+989178537782';
-            const message = `ثبت سفارش جدید:\nنام: ${name}\nایمیل: ${email}\nشماره تماس: ${phone}\nمحصول: ${order}`;
+            const message = `ثبت سفارش جدید:\nنام: ${name}\محصول: ${email}\nشماره تماس: ${phone}\تعداد: ${order}`;
             const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(message)}`;
             // باز کردن لینک واتساپ
             window.open(whatsappLink, '_blank');
