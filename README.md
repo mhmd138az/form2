@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<h1>سفارش شما از طریق واتساپ صبت میگردد پس لطفا وی پی ان خود را روشن کنید!</h1>
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
