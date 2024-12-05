@@ -84,13 +84,13 @@
             const email = formData.get('email');
             const phone = formData.get('phone');
 
-            // شماره ایتا خود را در اینجا وارد کنید
-            const itaNumber = '09178537782';
+            // شماره روبیکا خود را در اینجا وارد کنید
+            const rubikaNumber = '09178537782';
             const message = `ثبت‌نام جدید:\nنام: ${name}\nایمیل: ${email}\nشماره تماس: ${phone}`;
-            const itaLink = `https://api.ita.com/send?phone=${itaNumber}&text=${encodeURIComponent(message)}`;
+            const rubikaLink = `https://rubika.ir/send?phone=${rubikaNumber}&text=${encodeURIComponent(message)}`;
 
-            // باز کردن لینک ایتا
-            window.open(itaLink, '_blank');
+            // باز کردن لینک روبیکا
+            window.open(rubikaLink, '_blank');
         });
     </script>
 </body>
