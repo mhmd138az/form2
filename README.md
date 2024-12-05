@@ -98,7 +98,7 @@
             const phone = formData.get('phone');
             const order = formData.get('order');
             // شماره واتساپ خود را در اینجا وارد کنید
-            const whatsappNumber = '+989178537782';
+            const whatsappNumber = '+989160709087';
             const message = `ثبت سفارش جدید:\nنام: ${name}\nنام محصول: ${email}\nشماره تماس: ${phone}\nتعداد: ${order}`;
             const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(message)}`;
             // باز کردن لینک واتساپ
