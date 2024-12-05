@@ -78,8 +78,8 @@
         <form id="orderForm">
             <label for="name">نام:</label>
             <input type="text" name="name" required>
-            <label for="name">چی میخوای؟:</label>
-            <input type="text" name="name" required>
+            <label for="text">چی میخوای؟:</label>
+            <input type="text" name="text" required>
             <label for="phone">شماره تماس:</label>
             <input type="text" name="phone" required>
             <label for="order">تعداد:</label>
@@ -98,7 +98,7 @@
             const order = formData.get('order');
             // شماره واتساپ خود را در اینجا وارد کنید
             const whatsappNumber = '+989178537782';
-            const message =  `ثبت سفارش جدید:\nنام: ${name}\nنام محصول: ${email}\nشماره تماس: ${phone}\nتعداد: ${order}`;
+            const message =  `ثبت سفارش جدید:\nنام: ${name}\nنام محصول: ${text}\nشماره تماس: ${phone}\nتعداد: ${order}`;
             const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(message)}`;
             // باز کردن لینک واتساپ
             window.open(whatsappLink, '_blank');
