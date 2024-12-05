@@ -81,7 +81,7 @@
               <label for="name">تونام:</label>
             <input type="text" name="name" required>
             <label for="email">چی میخوای؟:</label>
-            <input type="text" name="text" required>
+            <input type="text" name="email" required>
             <label for="phone">شماره تماس:</label>
             <input type="text" name="phone" required>
             <label for="order">تعداد:</label>
