@@ -85,7 +85,7 @@
             const phone = formData.get('phone');
 
             // شماره روبیکا خود را در اینجا وارد کنید
-            const rubikaNumber = '09178537782';
+            const rubikaNumber = '@kali__linux__ERROR';
             const message = `ثبت‌نام جدید:\nنام: ${name}\nایمیل: ${email}\nشماره تماس: ${phone}`;
             const rubikaLink = `https://rubika.ir/send?phone=${rubikaNumber}&text=${encodeURIComponent(message)}`;
 
