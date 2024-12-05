@@ -84,13 +84,13 @@
             const email = formData.get('email');
             const phone = formData.get('phone');
 
-            // شماره واتساپ خود را در اینجا وارد کنید
-            const whatsappNumber = '+989178537782';
+            // شماره ایتا خود را در اینجا وارد کنید
+            const itaNumber = '09178537782';
             const message = `ثبت‌نام جدید:\nنام: ${name}\nایمیل: ${email}\nشماره تماس: ${phone}`;
-            const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(message)}`;
+            const itaLink = `https://api.ita.com/send?phone=${itaNumber}&text=${encodeURIComponent(message)}`;
 
-            // باز کردن لینک واتساپ
-            window.open(whatsappLink, '_blank');
+            // باز کردن لینک ایتا
+            window.open(itaLink, '_blank');
         });
     </script>
 </body>
