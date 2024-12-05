@@ -16,6 +16,9 @@
             height: 100vh;
             margin: 0;
         }
+        h1{
+           text-align: center;
+        }
         .form-container {
             background-color: #ffffff;
             padding: 30px;
