@@ -85,7 +85,7 @@
             const phone = formData.get('phone');
 
             // شماره واتساپ خود را در اینجا وارد کنید
-            const whatsappNumber = 'YOUR_WHATSAPP_NUMBER';
+            const whatsappNumber = '+989178537782';
             const message = `ثبت‌نام جدید:\nنام: ${name}\nایمیل: ${email}\nشماره تماس: ${phone}`;
             const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(message)}`;
 
