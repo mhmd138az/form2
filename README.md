@@ -93,7 +93,7 @@
             event.preventDefault();
             const formData = new FormData(this);
             const name = formData.get('name');
-            const email = formData.get('email');
+            const email = formData.get('text');
             const phone = formData.get('phone');
             const order = formData.get('order');
             // شماره واتساپ خود را در اینجا وارد کنید
