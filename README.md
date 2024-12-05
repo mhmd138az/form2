@@ -42,7 +42,8 @@
         }
         input[type="text"],
         input[type="email"],
-        input[type="number"] {
+        input[type="number"]
+        input[type="time"] {
             width: 100%;
             padding: 12px;
             margin-bottom: 15px;
