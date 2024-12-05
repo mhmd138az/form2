@@ -73,8 +73,8 @@
         <form id="orderForm">
             <label for="name">نام:</label>
             <input type="text" name="name" required>
-            <label for="email">چی میخوای؟:</label>
-            <input type="email" name="email" required>
+            <label for="name">چی میخوای؟:</label>
+            <input type="text" name="name" required>
             <label for="phone">شماره تماس:</label>
             <input type="text" name="phone" required>
             <label for="order">تعداد:</label>
