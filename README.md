@@ -78,8 +78,6 @@
         <form id="orderForm">
             <label for="name">نام:</label>
             <input type="text" name="name" required>
-              <label for="name">تونام:</label>
-            <input type="text" name="name" required>
             <label for="email">چی میخوای؟:</label>
             <input type="text" name="email" required>
             <label for="phone">شماره تماس:</label>
